@@ -5,112 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css" media="">
 </head>
 <body>
-    <div>
-        <h1>Você é amante do rio? Então cadastre-se para receber mais informações.</h1>
-        <p>Preencha todos campos abaixo:</p>
+    <div class="campo">
+        <h1 id="titulo">Você é amante do rio? Então cadastre-se para receber mais informações.</h1>
+        <p id="subtitulo">Preencha todos campos abaixo:</p>
     </div>
 
     <form>
-        <fieldset>
-            <div>
-                <Label>Informe seu Nome: </Label>
-                <input type="text" name="Nome" id= "Nome" maxlength="100">
+        <fieldset class = "grupo">
+            <div class="campo">
+                <Label for="nome"><strong>Informe seu Nome: </strong></Label>
+                <input type="text" name="Nome" id= "Nome" maxlength="100" required>
             </div>
 
-            <div>
-                <Label>Informe seu Sobrenome: </Label>
-                <input type="text" name="Sobrenome" id= "Sobrenome" maxlength="100">
+            <div class="campo">
+                <Label for="Sobrenome"><strong>Sobrenome: </strong></Label>
+                <input type="text" name="Sobrenome" id= "Sobrenome" maxlength="100" required>
             </div>
             
-            <div>
-                <label>Digite seu e-amail: </label>
-                <input type="email" name="email" id= "email">
+            <div class="campo">
+                <label for="email"><strong>Informe seu e-amail: </strong></label>
+                <input type="email" name="email" id= "email" required>
             </div>
 
-            <div>
-                <label>Digite seu número de Telefone: </label>
-                <input type="tel" name="tel" id= "telefone" maxlength="11">
+            <div class="campo">
+                <label for="telefone"><strong>Digite seu número de Telefone: </strong></label>
+                <input type="tel" name="tel" id= "telefone" maxlength="11" required>
             </div>
 
-            <div>
-                <label>Qual sua data de aniversário? </label>
-                <input type="date" name="Nome" id= "data" maxlength="11">
+            <div class="campo">
+                <label for="data"><strong>Qual sua data de aniversário?</strong></label>
+                <input type="date" name="Nome" id= "data" maxlength="11" required>
             </div>
 
-            <div>
-                <label>É maior de idade (maior de 18 anos)? </label>
+            <div class="campo">
+                <label><strong>É maior de idade (maior de 18 anos)?</strong> </label>
                 <label>
-                    <input type="radio" name="idade" value="S" checked>Sim
+                    <input type="radio" name="idade" value="S" checked required>Sim
                 </label>
                 <label>
-                    <input type="radio" name="idade" value="N">Não
+                    <input type="radio" name="idade" value="N" required>Não
                 </label>
             </div>
-
-            <div>
-                <label>Escolha os pontos turísticos que deseja conhecer no Rio de Janeiro:</label>
+        </fieldset>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="visitou"><strong>Já visitou o Rio de Janeiro?</strong></label>
+                <select id="visitou">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="grupo">
+            <div id="check">
                 <div>
+                <label><strong>Escolha os pontos turísticos que deseja conhecer no Rio de Janeiro:</strong></label>
+                </div>
+                <br>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Cristo"> Cristo Redentor
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Pão de Açucar"> Pão de Açucar
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Corcovado"> Corcovado
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Forte"> Forte de Copacabana
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Praias"> Praias (IPANEMA, LEBLON, BARRA DA TIJUCA, RECREIO, ARPOADOR, PRAIA VERMELHA, FLAMENGO, LEME, SÃO CONRADO)
                 </div>  
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Parque Lage"> Parque Lage
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Vidigal"> Vidigal
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Floresta"> Floresta da TIJUCA
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Jardim Botânico"> Jardim Botânico
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Zoo"> Zoológico do Rio
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="AquaRio"> AquaRio
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Parque da Cidade"> Parque da Cidade
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Roda Gigante"> Roda Star (Roda Gigante)
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Parque da Catacumba"> Parque da Catacumba
                 </div>
-                <div>
+                <div class="campo">
                     <input type="checkbox" name="lugar" value="Lagoa Rodrigo"> Lagoa Rodrigo de Feeitas
                 </div>
-            </div>
-            <div>
-                <label>Caso queira descrevar mais pontos túrisco do seu interesse, escreva abaixo:</label>
-                <div>
-                    <textarea id="textcad"></textarea>
+                <div class="campo">
+                    <input type="checkbox" name="lugar" value="OutrosLugares"> Outros:
                 </div>
             </div>
-            <div>
-            <input class="botaolimpar" type="reset" name="b2" value="Limpar">
-            <input class="botaoenviar" type="submit" name="b1" value="Enviar">
+            <div class="campo">
+                <label><strong>Caso queira descrevar mais pontos túriscos do seu interesse, escreva abaixo:</strong></label>
+                <div class="campo">
+                    <textarea row="6" style="width: 80em;" id="experiencia"></textarea>
+                </div>
             </div>
-
+            
         </fieldset>
 
+        <fieldset class="grupo">
+            <div class="campo">
+                <input id="botaolimpar" type="reset" name="limpa" value="Limpar">
+                <input id="botaoenviar" type="submit" name="envia" value="Enviar">
+            </div>
+        </fieldset>
+        <div>
+            <form class="form1" method="get" action="/index.html">
+                <button class="button1" type="submit">Clique aqui para voltar a página principal.</button>
+            </form>
+          </div>
     </form>
 </body>
 </html>
