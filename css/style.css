@@ -1,0 +1,415 @@
+@media screen and (max-width: 900px) {
+    html {
+      margin: 3rem;
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/*grid container*/
+
+body {
+    color: #A0ACAD;
+  
+}
+  
+header {
+    background-color: #5b78ee;
+    padding: 10px;
+    height: 20vh; /* 15% da altura da viewport (a área visível do navegador)*/
+    background-image: url(https://iconape.com/wp-content/png_logo_vector/cristo-redentor-brasil-logo.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+/* MENU INICIAL */
+
+aside {
+    background-color: #1c2272;
+    padding-bottom: 1%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* BOTÕES DE MENU (HOME)*/
+
+.mainmenubtn {
+    background-color: #5b78ee;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top:10px;
+    font-size: small;
+    border-radius: 10px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: #5b78ee;
+    min-width: 150px;
+    font-size: small;
+    border-radius: 5px;
+}
+
+.dropdown-child a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+/* BOTÃO DE GALERIAS E VÍDEOS */
+
+.mainmenubtn2 {
+    background-color: #5b78ee;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top:10px;
+    font-size: small;
+    border-radius: 10px;
+}
+.mainmenubtn2:hover {
+    background-color: blue;
+    }
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child2 {
+    display: none;
+    background-color: #5b78ee;
+    min-width: 150px;
+    font-size: small;
+    border-radius: 5px;
+}
+.dropdown-child2 a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown2:hover .dropdown-child2 {
+    display: block;
+}
+
+/* BOTÕES DE MENU (ABOUT)*/
+
+.mainmenubtn3 {
+    background-color: #5b78ee;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-top:10px;
+    font-size: small;
+    border-radius: 10px;
+}
+.mainmenubtn3:hover {
+    background-color: blue;
+    }
+
+.dropdown3 {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child3 {
+    display: none;
+    background-color: #5b78ee;
+    min-width: 150px;
+    font-size: small;
+    border-radius: 5px;
+}
+.dropdown-child3 a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown3:hover .dropdown-child3 {
+    display: block;
+}
+
+
+
+.h1side {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #b6dfe2;
+}
+
+/* CORPO */
+  
+main {
+    background-color: #c7e8f0;
+    padding: 75px;
+    height: 400vh;
+    margin-top: 0;
+}
+  
+.linksoutros {
+    padding: 20px;
+    background-color: #0d1952;
+    
+}
+  
+footer {
+    background-color: #0d1952;
+    padding: 10px;
+    height: 10vh;
+    grid-area: footer;
+}
+  
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+body{
+    background-color: #fff;
+    background-size: 3000px;
+}
+
+.h1p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    color: rgb(30, 104, 165);
+    font-size: 80px;
+    position: relative, center;
+    border: 10px;
+    text-align: center;
+}
+
+
+.h2p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(5, 7, 138);
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+/* RIO DE JANEIRO: SUA HISTÓRIA*/
+
+.h2p2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(5, 7, 138);
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 0%;
+}
+
+.h2s {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(5, 7, 138);
+    font-size: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    color: rgb(47, 0, 255);
+    font-size: 20px;
+    border: 10px;
+    text-align: center;
+}
+
+.divvideo {
+    display: grid;
+    grid-template-columns: 600px 700px;
+    grid-template-rows: 350px 
+}
+
+.video1 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(5, 7, 138);
+    margin: auto;
+}
+
+.video2 {
+    border-width: 10px;
+    border-style: solid;
+    border-color:rgb(5, 7, 138);
+    margin: auto
+}
+
+.video3 {
+    border-width: 10px;
+    border-style: solid;
+    border-color:rgb(5, 7, 138);
+    margin: auto
+}
+
+.video4 {
+    border-width: 10px;
+    border-style: solid;
+    border-color:rgb(5, 7, 138);
+    margin: auto
+}
+
+.divimg {
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: 400px 400px 400px;
+}
+
+.img1 {
+    border-width: 7px;
+    border-color:rgb(5, 7, 138);
+    border-style: solid;
+    position: relative left;
+    border-radius: 10%;
+}
+
+.img2 {
+    border-width: 7px;
+    border-color:rgb(5, 7, 138);
+    border-style: solid;
+    position: relative center;
+    border-radius: 10%;
+}
+
+.img3 {
+    border-width: 7px;
+    border-color:rgb(5, 7, 138);
+    border-style: solid;
+    position: relative right;
+    border-radius: 10%;
+}
+
+.img4 {
+    border-width: 7px;
+    border-color:rgb(5, 7, 138);
+    border-style: solid;
+    position: relative right;
+    border-radius: 10%;
+}
+
+.img5 {
+    border-width: 7px;
+    border-color:rgb(5, 7, 138);
+    border-style: solid;
+    position: relative right;
+    border-radius: 10%;
+}
+
+.img6 {
+    border-width: 7px;
+    border-color:rgb(5, 7, 138);
+    border-style: solid;
+    position: relative right;
+    border-radius: 10%;
+    
+}
+
+
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+.p1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    color: rgb(5, 7, 138);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.p2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: inherit;
+    color: rgb(5, 7, 138);
+    font-size: 20px;
+    text-align: right;
+    padding-bottom: 5%;
+}
+
+
+.footer1 {
+    background-color: #5b78ee;
+}
+
+/* BOTÃO PARA O FORMULÁRIO*/
+
+.form1 {
+    background:local;
+    text-align: center;
+    font-size: large;
+}
+
+.button1 {
+    color: #0d1952;
+    background-color: #cfcfcf;
+    padding: 20px;
+    border-width: 10px;
+    border-color:rgb(5, 7, 138);
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.button1:hover {
+    color: #0d1952;
+    background-color: #4cb9eb;
+    padding: 20px;
+    border-width: 10px;
+    border-color:rgb(62, 21, 116);
+    border-style: solid;
+    border-radius: 50%;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}

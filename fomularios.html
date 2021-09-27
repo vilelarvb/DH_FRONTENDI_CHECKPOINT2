@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div>
+        <h1>Você é amante do rio? Então cadastre-se para receber mais informações.</h1>
+        <p>Preencha todos campos abaixo:</p>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <Label>Informe seu Nome: </Label>
+                <input type="text" name="Nome" id= "Nome" maxlength="100">
+            </div>
+
+            <div>
+                <Label>Informe seu Sobrenome: </Label>
+                <input type="text" name="Sobrenome" id= "Sobrenome" maxlength="100">
+            </div>
+            
+            <div>
+                <label>Digite seu e-amail: </label>
+                <input type="email" name="email" id= "email">
+            </div>
+
+            <div>
+                <label>Digite seu número de Telefone: </label>
+                <input type="tel" name="tel" id= "telefone" maxlength="11">
+            </div>
+
+            <div>
+                <label>Qual sua data de aniversário? </label>
+                <input type="date" name="Nome" id= "data" maxlength="11">
+            </div>
+
+            <div>
+                <label>É maior de idade (maior de 18 anos)? </label>
+                <label>
+                    <input type="radio" name="idade" value="S" checked>Sim
+                </label>
+                <label>
+                    <input type="radio" name="idade" value="N">Não
+                </label>
+            </div>
+
+            <div>
+                <label>Escolha os pontos turísticos que deseja conhecer no Rio de Janeiro:</label>
+                <div>
+                    <input type="checkbox" name="lugar" value="Cristo"> Cristo Redentor
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Pão de Açucar"> Pão de Açucar
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Corcovado"> Corcovado
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Forte"> Forte de Copacabana
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Praias"> Praias (IPANEMA, LEBLON, BARRA DA TIJUCA, RECREIO, ARPOADOR, PRAIA VERMELHA, FLAMENGO, LEME, SÃO CONRADO)
+                </div>  
+                <div>
+                    <input type="checkbox" name="lugar" value="Parque Lage"> Parque Lage
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Vidigal"> Vidigal
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Floresta"> Floresta da TIJUCA
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Jardim Botânico"> Jardim Botânico
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Zoo"> Zoológico do Rio
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="AquaRio"> AquaRio
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Parque da Cidade"> Parque da Cidade
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Roda Gigante"> Roda Star (Roda Gigante)
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Parque da Catacumba"> Parque da Catacumba
+                </div>
+                <div>
+                    <input type="checkbox" name="lugar" value="Lagoa Rodrigo"> Lagoa Rodrigo de Feeitas
+                </div>
+            </div>
+            <div>
+                <label>Caso queira descrevar mais pontos túrisco do seu interesse, escreva abaixo:</label>
+                <div>
+                    <textarea id="textcad"></textarea>
+                </div>
+            </div>
+            <div>
+            <input class="botaolimpar" type="reset" name="b2" value="Limpar">
+            <input class="botaoenviar" type="submit" name="b1" value="Enviar">
+            </div>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
