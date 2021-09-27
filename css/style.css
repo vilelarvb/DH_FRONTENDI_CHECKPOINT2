@@ -382,6 +382,13 @@ body{
 
 .footer1 {
     background-color: #5b78ee;
+    
+}
+
+.afooter {
+   width: 20px;
+   height: 20px;
+   position: center;
 }
 
 /* BOTÃO PARA O FORMULÁRIO*/
